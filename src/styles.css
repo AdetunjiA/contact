@@ -1,0 +1,30 @@
+
+.content-container {
+  padding: 160px 20px;
+}
+.content-container h3{
+    /* text-align: center; */
+    font-family:poppins ;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content-container p{
+    /* text-align: center; */
+    font-family:poppins ;
+    font-size: 14px;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.content-container h1{
+    /* text-align: center; */
+    font-family:Playfair Display ;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+    @media (max-width: 900px) { 
+.content-container {
+    text-align: center;
+    padding: 160px 20px;
+}
+}
